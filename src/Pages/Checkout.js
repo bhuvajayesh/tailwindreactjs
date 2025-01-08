@@ -17,7 +17,7 @@ const paymentOption = [
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="w-auto h-8 md:h-12 lg:h-16 xl:h-20 2xl:h-[92px]"
+        className="w-auto h-8 md:h-10 lg:h-12 xl:h-16 2xl:h-[92px]"
       >
         <rect
           x="0.25"
@@ -64,7 +64,7 @@ const paymentOption = [
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="w-auto h-8 md:h-12 lg:h-16 xl:h-20 2xl:h-[92px]"
+        className="w-auto h-8 md:h-10 lg:h-12 xl:h-16 2xl:h-[92px]"
       >
         <rect width="160" height="92" rx="10" fill="url(#pattern0_60_225)" />
         <defs>
@@ -98,7 +98,7 @@ const paymentOption = [
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        className="w-auto h-8 md:h-12 lg:h-16 xl:h-20 2xl:h-[92px]"
+        className="w-auto h-8 md:h-10 lg:h-12 xl:h-16 2xl:h-[92px]"
       >
         <rect
           x="0.25"
@@ -140,7 +140,7 @@ const paymentOption = [
         viewBox="0 0 170 92"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-auto h-8 md:h-12 lg:h-16 xl:h-20 2xl:h-[92px]"
+        className="w-auto h-8 md:h-10 lg:h-12 xl:h-16 2xl:h-[92px]"
       >
         <rect
           x="0.5"
@@ -232,7 +232,7 @@ function Checkout() {
         <div className="container mx-auto px-4">
           <div className="py-10 md:pt-[60px] md:pb-[60px] xl:pb-28 2xl:pb-36 flex items-start flex-col lg:flex-row gap-10 xl:gap-[52px]">
             <div className="w-full lg:w-3/5 bg-white rounded-[20px] p-6 md:p-10 xl:pr-16 drop-shadow-[0_18px_47px_rgba(47,50,125,0.10)]">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold text-[#252641]">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-[#252641]">
                 Checkout
               </h2>
               <span className="text-[#5B5B5B] mt-2 text-lg font-medium block">
@@ -245,7 +245,7 @@ function Checkout() {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-wrap gap-5 md:gap-[30px]">
+              <div className="flex flex-wrap gap-5 lg:gap-[30px]">
                 <div className="w-full">
                   <label className="mb-2.5 block xl:text-lg font-semibold text-[#5B5B5B]">
                     Name on Card
@@ -253,7 +253,7 @@ function Checkout() {
                   <input
                     type="text"
                     placeholder="Enter name on Card"
-                    className="border border-[#D9D9D9] rounded-[10px] p-3 md:py-4 md:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
+                    className="border border-[#D9D9D9] rounded-[10px] p-3 lg:py-4 lg:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
                   />
                 </div>
                 <div className="w-full">
@@ -263,10 +263,10 @@ function Checkout() {
                   <input
                     type="text"
                     placeholder="Enter Card Number"
-                    className="border border-[#D9D9D9] rounded-[10px] p-3 md:py-4 md:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
+                    className="border border-[#D9D9D9] rounded-[10px] p-3 lg:py-4 lg:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
                   />
                 </div>
-                <div className="flex flex-col md:flex-row gap-5 md:gap-9 w-full">
+                <div className="flex flex-col md:flex-row gap-5 lg:gap-9 w-full">
                   <div className="w-full md:w-1/2">
                     <label className="mb-2.5 block xl:text-lg font-semibold text-[#5B5B5B]">
                       Expiration Date ( MM/YY )
@@ -274,7 +274,7 @@ function Checkout() {
                     <input
                       type="text"
                       placeholder="Enter Expiration Date"
-                      className="border border-[#D9D9D9] rounded-[10px] p-3 md:py-4 md:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
+                      className="border border-[#D9D9D9] rounded-[10px] p-3 lg:py-4 lg:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
                     />
                   </div>
                   <div className="w-full md:w-1/2">
@@ -284,7 +284,7 @@ function Checkout() {
                     <input
                       type="text"
                       placeholder="Enter CVC"
-                      className="border border-[#D9D9D9] rounded-[10px] p-3 md:py-4 md:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
+                      className="border border-[#D9D9D9] rounded-[10px] p-3 lg:py-4 lg:px-5 placeholder:text-[#9D9B9B] md:text-lg block w-full outline-none"
                     />
                   </div>
                 </div>
@@ -304,7 +304,7 @@ function Checkout() {
               </div>
               <Link
                 to="/"
-                className="w-full block py-3 md:py-4 text-center rounded-xl bg-[#49BBBD] text-white text-lg md:text-xl lg:text-[26px] hover:bg-[#252641] hover:text-white"
+                className="w-full block py-3 md:py-4 text-center rounded-xl bg-[#49BBBD] text-white text-lg md:text-xl xl:text-[26px] hover:bg-[#252641] hover:text-white"
               >
                 Confirm Payment
               </Link>
@@ -324,10 +324,10 @@ function Checkout() {
                     className="rounded-xl lg:rounded-[20px] w-full md:w-40 lg:w-28 xl:w-40 flex-none md:flex-initial"
                   />
                   <div className="flex-1">
-                    <h3 className="md:text-lg lg:text-base xl:text-lg">
+                    <h3 className="md:text-lg lg:text-base 2xl:text-lg">
                       {data.summaryTitle}
                     </h3>
-                    <p className="md:text-lg lg:text-base xl:text-lg py-0.5 text-[#5B5B5B]">
+                    <p className="md:text-lg lg:text-base 2xl:text-lg py-0.5 text-[#5B5B5B]">
                       {data.summaryDisc}
                     </p>
                     <h2 className="text-xl md:text-2xl lg:text-xl xl:text-2xl">
@@ -356,7 +356,7 @@ function Checkout() {
             </div>
           </div>
           <div className="flex items-center justify-between pb-6 md:pb-8 lg:pb-10 xl:pb-16">
-            <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+            <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
               Top Education offers and deals are listed here
             </h3>
             <Link

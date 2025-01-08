@@ -163,10 +163,10 @@ function Blog() {
                   By Themadbrains in{" "}
                   <strong className="text-[#49BBBD]">inspiration</strong>
                 </h4>
-                <h1 className="mt-3.5 md:mt-6 mb-3.5 text-[#2F327D] text-xl md:text-2xl lg:text-4xl xl:text-[44px] font-semibold !leading-normal">
+                <h1 className="mt-3.5 md:mt-6 mb-3.5 text-[#2F327D] text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[44px] font-semibold !leading-normal">
                   Why Swift UI Should Be on the Radar of Every Mobile Developer
                 </h1>
-                <p className="text-[#696984] lg:text-lg xl:text-xl leading-normal">
+                <p className="text-[#696984] xl:text-lg 2xl:text-xl leading-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempos Lorem ipsum dolor sitamet, consectetur
                   adipiscing elit, sed do eiusmod tempor
@@ -187,7 +187,7 @@ function Blog() {
       </div>
       <div className="py-10 md:py-12 lg:py-16 xl:py-20">
         <div className="container mx-auto px-4">
-          <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold mb-6">
+          <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold 2xl:font-bold mb-6">
             Reading blog list
           </h3>
           <ul className="flex flex-wrap md:flex-nowrap gap-6 lg:gap-8 xl:gap-12 2xl:gap-[76px]">
@@ -214,7 +214,7 @@ function Blog() {
       <div className="bg-[#EBF5FF] py-10 md:py-12 lg:py-20 xl:pt-[93px] xl:pb-[116px]">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between pb-6 md:pb-10">
-            <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+            <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
               Related Blog
             </h3>
             <Link
@@ -233,7 +233,7 @@ function Blog() {
                 <div className="rounded-[20px] overflow-hidden">
                   <img src={data.RelatedBlogPic} alt="" />
                 </div>
-                <h3 className="mt-3 mb-6 text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                <h3 className="mt-3 mb-6 md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                   {data.RelatedBlogTitle}
                 </h3>
                 <div className="flex items-center md:px-6">
@@ -282,7 +282,7 @@ function Blog() {
       <div className="py-10 md:py-12 lg:py-20 xl:pt-[80px] xl:pb-[170px]">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between pb-6 lg:pb-8 xl:pb-12">
-            <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+            <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
               Marketing Articles
             </h3>
             <Link
@@ -367,7 +367,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <h3 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                <h3 className="md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                   {data.marketingTitel}
                 </h3>
                 <p className="my-4 2xl:mt-6 2xl:mb-5">{data.marketingDisc}</p>

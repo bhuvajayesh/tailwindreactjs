@@ -148,18 +148,19 @@ body {
 .course-progress .progress-label {
   display: none;
 }
-/* .offer-pic1 {
-  background: url(../src/images/offer-pic1.jpg) no-repeat;
+.search-banner {
+  background: url(../src/images/search-banner.jpg) no-repeat;
   background-size: cover;
 }
-.offer-pic2 {
-  background: url(../src/images/offer-pic2.jpg) no-repeat;
+.literature-course-bg {
+  background: url(../src/images/course-bg.jpg) no-repeat;
   background-size: cover;
 }
-.offer-pic3 {
-  background: url(../src/images/offer-pic3.jpg) no-repeat;
-  background-size: cover;
-} */
+li.react-tabs__tab--selected {
+  background: #49BBBD;
+  color: #ffffff;
+  border-radius: 12px;
+}
 
 /* Responsive */
 @media (max-width: 1599px) {

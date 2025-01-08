@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function OnlineCoaching() {
   return (
     <>
-      <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white font-semibold">
+      <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white font-semibold">
         Online coaching lessons for remote learning.
       </h2>
       <p className="mt-5 mb-7 md:mt-[30px] md:mb-12 2xl:mb-16 lg:text-lg xl:text-xl 2xl:text-2xl text-white leading-normal">

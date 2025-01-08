@@ -204,13 +204,13 @@ function Meeting() {
             </div>
             <div className="flex-1 flex flex-col gap-6 xl:gap-[30px]">
               <div className="xl:flex-1 bg-white rounded-2xl p-5 xl:py-10 xl:px-6 2xl:py-12 2xl:px-[30px]">
-                <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#252641]">
+                <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-[#252641]">
                   Course Contents
                 </h2>
               </div>
               <div className="bg-white rounded-2xl p-5 xl:py-10 xl:px-6 2xl:py-12 2xl:px-[30px]">
                 <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-[#252641]">
+                  <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-[#252641]">
                     Book for you
                   </h2>
                   <svg

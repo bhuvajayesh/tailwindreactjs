@@ -435,7 +435,7 @@ function Course() {
         <div className="bg-[#EBF5FF] pt-10 md:pt-[50px] pb-12 lg:pb-20 xl:pb-[107px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-4 md:mb-6 lg:mb-10 xl:mb-[50px] gap-3 md:gap-0">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">
                 Welcome back, ready for your next lesson?
               </h2>
               <Link
@@ -485,7 +485,7 @@ function Course() {
         </div>
         <div className="py-10 md:py-12 lg:py-16 xl:pt-20 xl:pb-[100px]">
           <div className="container mx-auto px-4">
-            <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold mb-4 md:mb-6 lg:mb-10 xl:mb-[50px]">
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold mb-4 md:mb-6 lg:mb-10 xl:mb-[50px]">
               Choice favourite course from top category
             </h2>
             <div className="flex flex-wrap gap-6 xl:gap-10 2xl:gap-20">
@@ -511,7 +511,7 @@ function Course() {
         <div className="bg-[#EBF5FF] py-10 md:py-12 lg:py-16 xl:pt-24 xl:pb-[163px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-4 md:mb-6 lg:mb-10 xl:mb-[50px] gap-3 md:gap-0">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
                 Recommended for you
               </h2>
               <Link
@@ -599,10 +599,10 @@ function Course() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                  <h3 className="md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                     {data.recommendedTitle}
                   </h3>
-                  <p className="my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
+                  <p className="mt-2 mb-3 md:my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
                     {data.recommendedDisc}
                   </p>
                   <div className="flex items-center justify-between">
@@ -633,7 +633,7 @@ function Course() {
         <div className="py-10 md:py-12 lg:py-16 xl:py-[90px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-4 md:mb-6 lg:mb-10 xl:mb-[50px] gap-3 md:gap-0">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
                 Get choice of your course
               </h2>
               <Link
@@ -718,10 +718,10 @@ function Course() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                  <h3 className="md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                     {data.recommendedTitle}
                   </h3>
-                  <p className="my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
+                  <p className="mt-2 mb-3 md:my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
                     {data.recommendedDisc}
                   </p>
                   <div className="flex items-center justify-between">
@@ -757,7 +757,7 @@ function Course() {
         <div className="py-10 md:py-12 lg:py-16 xl:py-[90px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-4 md:mb-6 lg:mb-10 xl:mb-[50px] gap-3 md:gap-0">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
                 The course in personal development
               </h2>
               <Link
@@ -842,10 +842,10 @@ function Course() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                  <h3 className="md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                     {data.recommendedTitle}
                   </h3>
-                  <p className="my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
+                  <p className="mt-2 mb-3 md:my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
                     {data.recommendedDisc}
                   </p>
                   <div className="flex items-center justify-between">
@@ -876,7 +876,7 @@ function Course() {
         <div className="bg-[#EBF5FF] py-10 md:py-12 lg:py-16 xl:pt-24 xl:pb-[138px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-4 md:mb-6 lg:mb-10 xl:mb-[50px] gap-3 md:gap-0">
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+              <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
                 Student are viewing
               </h2>
               <Link
@@ -961,10 +961,10 @@ function Course() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                  <h3 className="md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                     {data.recommendedTitle}
                   </h3>
-                  <p className="my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
+                  <p className="mt-2 mb-3 md:my-4 2xl:mt-5 2xl:mb-4 text-[#696984] md:text-lg">
                     {data.recommendedDisc}
                   </p>
                   <div className="flex items-center justify-between">

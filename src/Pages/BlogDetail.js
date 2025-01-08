@@ -95,7 +95,7 @@ function BlogDetail() {
         <img src={BlogDetailBanner} alt="" className="w-full" />
         <div className="pt-10 md:pt-16 lg:pt-20 pb-[30px]">
           <div className="container mx-auto px-4">
-            <h1 className="text-[#2F327D] text-xl md:text-2xl lg:text-4xl xl:text-[44px] font-semibold !leading-normal mb-5">
+            <h1 className="text-[#2F327D] text-xl lg:text-2xl xl:text-4xl 2xl:text-[44px] font-semibold !leading-normal mb-5">
               Why Swift UI Should Be on the Radar of Every Mobile Developer
             </h1>
             <p className="md:text-lg lg:text-xl text-[#696984] mb-4 lg:mb-[30px]">
@@ -162,7 +162,7 @@ function BlogDetail() {
         <div className="bg-[#EBF5FF] py-10 md:py-12 lg:py-20 xl:pb-[200px]">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between pb-6 md:pb-10">
-              <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium">
+              <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
                 Related Blog
               </h3>
               <Link
@@ -181,7 +181,7 @@ function BlogDetail() {
                   <div className="rounded-[20px] overflow-hidden">
                     <img src={data.RelatedBlogPic} alt="" />
                   </div>
-                  <h3 className="mt-3 mb-6 text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
+                  <h3 className="mt-3 mb-6 md:text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] leading-normal">
                     {data.RelatedBlogTitle}
                   </h3>
                   <div className="flex items-center md:px-6">

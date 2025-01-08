@@ -348,7 +348,7 @@ function Membership() {
             <OnlineCoaching />
           </div>
           <div className="">
-            <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold text-center !leading-normal">
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-center !leading-normal">
               Online coaching lessons for remote learning
             </h2>
             <div className="my-10 md:my-12 lg:my-16 xl:my-20">
@@ -449,7 +449,7 @@ function Membership() {
         </div>
         <div className="bg-[#EBF5FF] pt-10 pb-28 md:pt-12 md:pb-32 lg:pt-16 lg:pb-40 xl:pt-20 xl:pb-60 2xl:pb-[317px]">
           <div className="container mx-auto px-4">
-            <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold mb-4 md:mb-6 lg:mb-10 xl:mb-[50px]">
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold mb-4 md:mb-6 lg:mb-10 xl:mb-[50px]">
               What our students have to say
             </h2>
             <Slider {...settings} className="arrowCenterSlider">
@@ -479,7 +479,7 @@ function Membership() {
         <div className="mt-[-55px] lg:mt-[-68px] xl:mt-[-96px] 2xl:mt-[-123px]">
           <div className="container mx-auto px-4">
             <div className="bg-[#252641] rounded-2xl lg:rounded-3xl xl:rounded-[36px] p-4 md:p-8 lg:p-10 xl:px-20 xl:py-16 2xl:pt-[71px] 2xl:pb-[84px] 2xl:pl-[100px] 2xl:pr-[88px] flex flex-col md:flex-row items-center justify-between">
-              <h2 className="mb-4 md:mb-auto text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold text-white">
+              <h2 className="mb-4 md:mb-auto text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-white">
                 APP is available for free
               </h2>
               <div className="flex items-stretch gap-2 md:gap-4 lg:gap-6 w-full md:w-auto">

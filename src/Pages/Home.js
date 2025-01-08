@@ -253,7 +253,7 @@ function Home() {
       </div>
       <div className="py-10 md:py-14 lg:py-20 xl:py-24 2xl:py-32 text-center">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#010514] mb-4">
+          <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-[#010514] mb-4">
             Our Success
           </h3>
           <p className="text-[#010514] text-base md:text-lg">
@@ -521,7 +521,7 @@ function Home() {
               <img src={featurePic1} alt="" className="w-full" />
             </div>
             <div className="flex-1 mt-8 md:mt-0">
-              <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-[40px] text-[#2F327D] font-semibold text-center md:text-left">
+              <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 2xl:text-[40px] text-[#2F327D] font-semibold text-center md:text-left">
                 A <span className="text-[#00CBB8]">user interface</span>{" "}
                 designed for the classroom
               </h3>
@@ -542,7 +542,7 @@ function Home() {
               </ul>
             </div>
           </div>
-          <div className="mt-10 md:pt-16 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
+          <div className="mt-10 md:pt-12 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
             <div className="flex-1 xl:flex-auto xl:w-2/5 text-center md:text-left">
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-[#2F327D] font-semibold mb-5">
                 <span className="text-[#00CBB8]">Tools</span> For Teachers And
@@ -558,8 +558,8 @@ function Home() {
               <img src={featurePic2} alt="" className="w-full" />
             </div>
           </div>
-          <div className="mt-10 md:pt-16 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
-            <div className="w-full md:w-2/5 order-2 md:order-1">
+          <div className="mt-10 md:pt-12 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
+            <div className="w-full md:w-2/5 order-2 md:order-first">
               <img src={featurePic3} alt="" className="w-full" />
             </div>
             <div className="flex-1 xl:flex-auto xl:w-2/5 text-center md:text-left">
@@ -574,7 +574,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="mt-10 md:pt-16 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20">
+          <div className="mt-10 md:pt-12 lg:pt-20 xl:pt-40 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20">
             <div className="flex-1 xl:flex-auto xl:w-2/5 text-center md:text-left">
               <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-[#2F327D] font-semibold mb-5">
                 <span className="text-[#00CBB8]">
@@ -592,8 +592,8 @@ function Home() {
               <img src={featurePic4} alt="" className="w-full" />
             </div>
           </div>
-          <div className="mt-10 md:pt-16 lg:pt-20 xl:pt-36 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
-            <div className="w-full md:w-1/2 order-2 md:order-1">
+          <div className="mt-10 md:pt-12 lg:pt-20 xl:pt-36 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 lg:gap-16 xl:gap-20 2xl:gap-28">
+            <div className="w-full md:w-1/2 order-2 md:order-first">
               <img src={featurePic5} alt="" className="w-full" />
             </div>
             <div className="flex-1 xl:flex-auto xl:w-2/5 text-center md:text-left">

@@ -7,6 +7,8 @@ import Course from "./Pages/Course";
 import Checkout from "./Pages/Checkout";
 import BlogDetail from "./Pages/BlogDetail";
 import Meeting from "./Pages/Meeting";
+import Search from "./Pages/Search";
+import LiteratureCourse from "./Pages/LiteratureCourse";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route element={<Checkout />} path={"/checkout"} />
           <Route element={<BlogDetail />} path={"/blog-detail"} />
           <Route element={<Meeting />} path={"/meeting"} />
+          <Route element={<Search />} path={"/search"} />
+          <Route element={<LiteratureCourse />} path={"/literature-course"} />
         </Routes>
       </BrowserRouter>
     </>
