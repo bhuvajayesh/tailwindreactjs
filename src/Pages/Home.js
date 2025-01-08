@@ -191,14 +191,14 @@ function Home() {
               </ul>
               <div className="flex gap-4 lg:gap-[26px]">
                 <Link
-                  to="/"
+                  to="/login"
                   className="min-w-24 lg:min-w-40 bg-white py-1.5 px-4 lg:pt-2 lg:pb-3 lg:px-6 text-center rounded-full text-[#5B5B5B] text-base lg:text-xl font-semibold hover:bg-[#5B5B5B] hover:text-white leading-normal"
                 >
                   Login
                 </Link>
 
                 <Link
-                  to="/"
+                  to="/register"
                   className="min-w-24 lg:min-w-40 bg-white bg-opacity-30 py-1.5 px-4 lg:pt-2 lg:pb-3 lg:px-6 text-center rounded-full text-white text-base lg:text-xl font-semibold hover:bg-[#5B5B5B] hover:text-white leading-normal"
                 >
                   Sign Up

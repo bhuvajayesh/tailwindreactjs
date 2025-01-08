@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const footerLinks = [
   {
     footerlink: "Careers",
+    link: "/careers",
   },
   {
     footerlink: "Privacy Policy",
@@ -59,7 +60,7 @@ function Footer() {
                 className="border-r border-[#626381] pr-2 md:pr-5 md:mr-5 last:border-none last:pr-0 last:mr-0"
               >
                 <Link
-                  to="/"
+                  to={data.link}
                   className="text-base md:text-xl xl:text-[22px] text-[#B2B3CF] leading-none"
                 >
                   {data.footerlink}
