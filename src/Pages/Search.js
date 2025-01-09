@@ -603,7 +603,9 @@ function Search() {
                   <h2 className="text-lg xl:text-xl 2xl:text-2xl font-medium text-[#252641] my-5">
                     {data.classesToughtTitle}
                   </h2>
-                  <p className="md:text-sm lg:text-base text-[#696984]">{data.classesToughtDisc}</p>
+                  <p className="md:text-sm lg:text-base text-[#696984]">
+                    {data.classesToughtDisc}
+                  </p>
                 </div>
               ))}
             </div>
@@ -615,7 +617,11 @@ function Search() {
               What our students have to say
             </h2>
             <div className="bg-white flex flex-col md:flex-row items-center gap-5 md:gap-0 p-5 md:p-8 lg:p-10 xl:pt-20 xl:pl-24 xl:pb-8 xl:pr-14 rounded-xl md:rounded-3xl lg:rounded-[40px]">
-              <img src={studentSay} alt="" className="md:w-4/12 lg:w-2/5 2xl:w-auto" />
+              <img
+                src={studentSay}
+                alt=""
+                className="md:w-4/12 lg:w-2/5 2xl:w-auto"
+              />
               <div className="flex-1 md:px-10 lg:px-16 xl:px-20 2xl:px-24">
                 <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold 2xl:font-bold text-[#252641]">
                   Savannah Nguyen
@@ -740,38 +746,40 @@ function Search() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-4 py-10 md:py-12 lg:py-20">
-          <div className="flex items-center justify-between pb-6 md:pb-8 lg:pb-10 xl:pb-[70px]">
-            <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
-              Top Education offers and deals are listed here
-            </h3>
-            <Link
-              href=""
-              className="text-[#49BBBD] font-semibold text-base lg:text-lg xl:text-xl flex-none"
-            >
-              See all
-            </Link>
-          </div>
-          <div className="flex flex-col md:flex-row relative gap-5 lg:gap-10 xl:gap-14 2xl:gap-[72px]">
-            {educationOffers.map((data, i) => (
-              <div
-                key={i}
-                className="flex-1 rounded-[20px] overflow-hidden relative"
+        <div className="py-10 md:py-12 lg:py-20">
+          <div className="container mx-auto px-4">
+            <div className="flex items-center justify-between pb-6 md:pb-8 lg:pb-10 xl:pb-[70px]">
+              <h3 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-medium">
+                Top Education offers and deals are listed here
+              </h3>
+              <Link
+                href=""
+                className="text-[#49BBBD] font-semibold text-base lg:text-lg xl:text-xl flex-none"
               >
-                <img src={data.offersPic} alt="" className="w-full" />
-                <div className="p-5 md:p-3 lg:p-5 xl:p-11 absolute w-full h-full top-0 left-0">
-                  <label className="text-2xl md:text-xl lg:text-3xl 2xl:text-[50px] font-semibold lg:font-bold text-white bg-[#49BBBD] rounded-[10px] aspect-square p-2 inline-flex items-center justify-center">
-                    {data.offersLabel}
-                  </label>
-                  <h2 className="mt-3 lg:mt-5 xl:mt-7 mb-1 lg:mb-2 text-xl md:text-base lg:text-xl xl:text-[28px] font-bold text-white">
-                    {data.offersTitle}
-                  </h2>
-                  <p className="text-lg md:text-sm lg:text-lg xl:text-xl text-white line-clamp-4 2xl:line-clamp-5 leading-normal">
-                    {data.offersDisc}
-                  </p>
+                See all
+              </Link>
+            </div>
+            <div className="flex flex-col md:flex-row relative gap-5 lg:gap-10 xl:gap-14 2xl:gap-[72px]">
+              {educationOffers.map((data, i) => (
+                <div
+                  key={i}
+                  className="flex-1 rounded-[20px] overflow-hidden relative"
+                >
+                  <img src={data.offersPic} alt="" className="w-full" />
+                  <div className="p-5 md:p-3 lg:p-5 xl:p-11 absolute w-full h-full top-0 left-0">
+                    <label className="text-2xl md:text-xl lg:text-3xl 2xl:text-[50px] font-semibold lg:font-bold text-white bg-[#49BBBD] rounded-[10px] aspect-square p-2 inline-flex items-center justify-center">
+                      {data.offersLabel}
+                    </label>
+                    <h2 className="mt-3 lg:mt-5 xl:mt-7 mb-1 lg:mb-2 text-xl md:text-base lg:text-xl xl:text-[28px] font-bold text-white">
+                      {data.offersTitle}
+                    </h2>
+                    <p className="text-lg md:text-sm lg:text-lg xl:text-xl text-white line-clamp-4 2xl:line-clamp-5 leading-normal">
+                      {data.offersDisc}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
