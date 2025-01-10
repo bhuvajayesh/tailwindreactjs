@@ -157,9 +157,17 @@ body {
   background-size: cover;
 }
 li.react-tabs__tab--selected {
-  background: #49BBBD;
+  background: #49bbbd;
   color: #ffffff;
   border-radius: 12px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* Responsive */
