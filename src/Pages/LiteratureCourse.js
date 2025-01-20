@@ -75,7 +75,7 @@ function LiteratureCourse() {
                   John Anderson
                 </h2>
                 <Link
-                  to="/blog-detail"
+                  to=""
                   className="py-2 px-4 md:py-3 md:px-6 inline-block rounded-xl bg-[#49BBBD] text-white xl:text-lg 2xl:text-xl font-semibold hover:bg-[#252641] hover:text-white"
                 >
                   Enroll Now

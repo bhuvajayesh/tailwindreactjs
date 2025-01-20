@@ -282,7 +282,7 @@ function Search() {
                 className="w-full outline-none pl-2 md:pl-7 tracking-[2px] placeholder:text-[#B4B5C2] text-sm md:text-base"
               />
               <Link
-                to="/blog-detail"
+                to=""
                 className="py-1.5 px-4 md:py-2.5 lg:py-3.5 md:px-10 inline-block rounded-xl bg-[#49BBBD] text-white md:text-xl font-semibold hover:bg-[#252641] hover:text-white"
               >
                 Search
@@ -446,7 +446,7 @@ function Search() {
                 </li>
               </ul>
               <Link
-                to="/blog-detail"
+                to=""
                 className="py-3 xl:py-5 px-6 xl:px-16 inline-block rounded-xl bg-[#49BBBD] text-white text-base font-semibold xl:font-bold hover:bg-[#252641] hover:text-white"
               >
                 Start learning now

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CalendarSidebar from "../Componant/CalendarSidebar";
+import classroomVideo from "../../src/images/class.mp4";
+import user from "../../src/images/user.png";
 
 function CourseFullView() {
   return (
@@ -67,9 +69,148 @@ function CourseFullView() {
             </div>
           </div>
           <div className="p-4 md:p-5 lg:p-[30px]">
-            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">
-              CourseFullView
+            <div>
+              <video
+                width="100%"
+                controls
+                // autoPlay
+                loop
+                className="rounded-[20px]"
+              >
+                <source src={classroomVideo} type="video/mp4" />
+              </video>
+            </div>
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold mt-10 xl:mt-20">
+              O6 Super Coins on the way
             </h2>
+            <p className="text-[#696984] lg:text-lg my-5 xl:mt-[30px] xl:mb-[50px]">
+              Lorem ipsum dolor sit amet, consectetur adi piscing elit, sed do
+              eiusmodadipiscing elit, sed do eiusmodLorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+              eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmodadipiscing elit, sed do eiusmodeiusmodadipiscing
+              elit, sed do eiusmod
+            </p>
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">
+              Who this course is for?
+            </h2>
+            <p className="text-[#696984] lg:text-lg my-5 xl:mt-[30px] xl:mb-[50px]">
+              Lorem ipsum dolor sit amet, consectetur adi piscing elit, sed do
+              eiusmodadipiscing elit, sed do eiusmodLorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+              eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmodadipiscing elit, sed do eiusmodeiusmodadipiscing
+              elit, sed do eiusmodL
+            </p>
+            <h2 className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">
+              Archievable
+            </h2>
+            <p className="text-[#696984] lg:text-lg my-5 xl:mt-[30px] xl:mb-16">
+              Lorem ipsum dolor sit amet, consectetur adi piscing elit, sed do
+              eiusmodadipiscing elit, sed do eiusmodLorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+              eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmodadipiscing elit, sed do eiusmodeiusmodadipiscing
+              elit, sed do eiusmodLWho this course is for? Lorem ipsum dolor sit
+              amet, consectetur adi piscing elit, sed do eiusmodadipiscing elit,
+              sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmodadipiscing elit, sed do eiusmodLorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmodadipiscing elit, sed do eiusmodeiusmodadipiscing elit, sed
+              do eiusmodL
+            </p>
+            <div className="bg-[#F48C06] bg-opacity-30 rounded-2xl p-5 lg:p-[30px] lg:pb-10">
+              <div className="flex gap-4 lg:gap-5">
+                <img
+                  src={user}
+                  alt=""
+                  className="w-[70px] aspect-square rounded-lg"
+                />
+                <div>
+                  <h3 className="text-[#2D3436] text-lg md:text-xl lg:text-2xl font-semibold">
+                    Bulkin Simons
+                  </h3>
+                  <ul className="flex items-center gap-1.5 mt-2">
+                    <li>
+                      <svg
+                        width="21"
+                        height="22"
+                        viewBox="0 0 21 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.51575 0.40484C9.7113 -0.134947 10.3774 -0.134947 10.5729 0.40484L12.9384 6.93459C13.0208 7.16216 13.2072 7.31765 13.4212 7.33734L19.5611 7.90248C20.0687 7.9492 20.2745 8.67646 19.8878 9.05679L15.2098 13.6576C15.0468 13.8179 14.9756 14.0695 15.0254 14.3091L16.4545 21.1882C16.5727 21.7568 16.0339 22.2064 15.5993 21.9016L10.3427 18.2153C10.1595 18.0869 9.92911 18.0869 9.74591 18.2153L4.48928 21.9016C4.05473 22.2064 3.5159 21.7568 3.63406 21.1882L5.06326 14.3091C5.11306 14.0695 5.04186 13.8179 4.87884 13.6576L0.20085 9.05679C-0.185866 8.67646 0.0199544 7.9492 0.527516 7.90248L6.66745 7.33734C6.88143 7.31765 7.06782 7.16216 7.15027 6.93459L9.51575 0.40484Z"
+                          fill="#FDB022"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="21"
+                        height="22"
+                        viewBox="0 0 21 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.51575 0.40484C9.7113 -0.134947 10.3774 -0.134947 10.5729 0.40484L12.9384 6.93459C13.0208 7.16216 13.2072 7.31765 13.4212 7.33734L19.5611 7.90248C20.0687 7.9492 20.2745 8.67646 19.8878 9.05679L15.2098 13.6576C15.0468 13.8179 14.9756 14.0695 15.0254 14.3091L16.4545 21.1882C16.5727 21.7568 16.0339 22.2064 15.5993 21.9016L10.3427 18.2153C10.1595 18.0869 9.92911 18.0869 9.74591 18.2153L4.48928 21.9016C4.05473 22.2064 3.5159 21.7568 3.63406 21.1882L5.06326 14.3091C5.11306 14.0695 5.04186 13.8179 4.87884 13.6576L0.20085 9.05679C-0.185866 8.67646 0.0199544 7.9492 0.527516 7.90248L6.66745 7.33734C6.88143 7.31765 7.06782 7.16216 7.15027 6.93459L9.51575 0.40484Z"
+                          fill="#FDB022"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="21"
+                        height="22"
+                        viewBox="0 0 21 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.51575 0.40484C9.7113 -0.134947 10.3774 -0.134947 10.5729 0.40484L12.9384 6.93459C13.0208 7.16216 13.2072 7.31765 13.4212 7.33734L19.5611 7.90248C20.0687 7.9492 20.2745 8.67646 19.8878 9.05679L15.2098 13.6576C15.0468 13.8179 14.9756 14.0695 15.0254 14.3091L16.4545 21.1882C16.5727 21.7568 16.0339 22.2064 15.5993 21.9016L10.3427 18.2153C10.1595 18.0869 9.92911 18.0869 9.74591 18.2153L4.48928 21.9016C4.05473 22.2064 3.5159 21.7568 3.63406 21.1882L5.06326 14.3091C5.11306 14.0695 5.04186 13.8179 4.87884 13.6576L0.20085 9.05679C-0.185866 8.67646 0.0199544 7.9492 0.527516 7.90248L6.66745 7.33734C6.88143 7.31765 7.06782 7.16216 7.15027 6.93459L9.51575 0.40484Z"
+                          fill="#FDB022"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="21"
+                        height="22"
+                        viewBox="0 0 21 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.51575 0.40484C9.7113 -0.134947 10.3774 -0.134947 10.5729 0.40484L12.9384 6.93459C13.0208 7.16216 13.2072 7.31765 13.4212 7.33734L19.5611 7.90248C20.0687 7.9492 20.2745 8.67646 19.8878 9.05679L15.2098 13.6576C15.0468 13.8179 14.9756 14.0695 15.0254 14.3091L16.4545 21.1882C16.5727 21.7568 16.0339 22.2064 15.5993 21.9016L10.3427 18.2153C10.1595 18.0869 9.92911 18.0869 9.74591 18.2153L4.48928 21.9016C4.05473 22.2064 3.5159 21.7568 3.63406 21.1882L5.06326 14.3091C5.11306 14.0695 5.04186 13.8179 4.87884 13.6576L0.20085 9.05679C-0.185866 8.67646 0.0199544 7.9492 0.527516 7.90248L6.66745 7.33734C6.88143 7.31765 7.06782 7.16216 7.15027 6.93459L9.51575 0.40484Z"
+                          fill="#FDB022"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        width="21"
+                        height="22"
+                        viewBox="0 0 21 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.51575 0.40484C9.7113 -0.134947 10.3774 -0.134947 10.5729 0.40484L12.9384 6.93459C13.0208 7.16216 13.2072 7.31765 13.4212 7.33734L19.5611 7.90248C20.0687 7.9492 20.2745 8.67646 19.8878 9.05679L15.2098 13.6576C15.0468 13.8179 14.9756 14.0695 15.0254 14.3091L16.4545 21.1882C16.5727 21.7568 16.0339 22.2064 15.5993 21.9016L10.3427 18.2153C10.1595 18.0869 9.92911 18.0869 9.74591 18.2153L4.48928 21.9016C4.05473 22.2064 3.5159 21.7568 3.63406 21.1882L5.06326 14.3091C5.11306 14.0695 5.04186 13.8179 4.87884 13.6576L0.20085 9.05679C-0.185866 8.67646 0.0199544 7.9492 0.527516 7.90248L6.66745 7.33734C6.88143 7.31765 7.06782 7.16216 7.15027 6.93459L9.51575 0.40484Z"
+                          fill="#FDB022"
+                        />
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-[#696984] lg:text-lg mt-5 lg:mt-[30px]">
+                Lorem ipsum dolor sit amet, consectetur adi piscing elit, sed do
+                eiusmodadipiscing elit, sed do eiusmodLorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmodadipiscing
+                elit, sed do eiusmodLorem
+              </p>
+            </div>
           </div>
         </div>
       </div>

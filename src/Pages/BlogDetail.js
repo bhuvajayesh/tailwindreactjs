@@ -10,16 +10,16 @@ import Slider from "react-slick";
 
 const blogTags = [
   {
-    blogTagName: "affordable",
+    blogTagName: "Affordable",
   },
   {
     blogTagName: "Stunning",
   },
   {
-    blogTagName: "making",
+    blogTagName: "Making",
   },
   {
-    blogTagName: "madbrawns",
+    blogTagName: "Madbrawns",
   },
 ];
 

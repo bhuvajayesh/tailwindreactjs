@@ -558,7 +558,7 @@ function CourseDetail() {
                   11 hour left at this price
                 </div>
                 <Link
-                  to="/blog-detail"
+                  to=""
                   className="w-full py-3 xl:py-4 inline-block rounded-xl bg-[#49BBBD] text-white text-center xl:text-lg 2xl:text-xl font-semibold hover:bg-[#252641] hover:text-white"
                 >
                   Buy Now

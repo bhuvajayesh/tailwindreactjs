@@ -18,6 +18,7 @@ import CourseCalendarCreate1 from "./Pages/CourseCalendarCreate1";
 import CourseCalendarCreate2 from "./Pages/CourseCalendarCreate2";
 import CourseCalendar from "./Pages/CourseCalendar";
 import CourseFullView from "./Pages/CourseFullView";
+import Atomic from "./Pages/Atomic";
 
 function App() {
   return (
@@ -38,10 +39,17 @@ function App() {
           <Route element={<Careers />} path={"/careers"} />
           <Route element={<AboutUs />} path={"/about-us"} />
           <Route element={<CourseDetail />} path={"/course-detail"} />
-          <Route element={<CourseCalendarCreate1 />} path={"/course-calendar-create1"} />
-          <Route element={<CourseCalendarCreate2 />} path={"/course-calendar-create2"} />
+          <Route
+            element={<CourseCalendarCreate1 />}
+            path={"/course-calendar-create1"}
+          />
+          <Route
+            element={<CourseCalendarCreate2 />}
+            path={"/course-calendar-create2"}
+          />
           <Route element={<CourseCalendar />} path={"/course-calendar"} />
           <Route element={<CourseFullView />} path={"/course-full-view"} />
+          <Route element={<Atomic />} path={"/atomic"} />
         </Routes>
       </BrowserRouter>
     </>
