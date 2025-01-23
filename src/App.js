@@ -19,6 +19,7 @@ import CourseCalendarCreate2 from "./Pages/CourseCalendarCreate2";
 import CourseCalendar from "./Pages/CourseCalendar";
 import CourseFullView from "./Pages/CourseFullView";
 import Atomic from "./Pages/Atomic";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route element={<CourseCalendar />} path={"/course-calendar"} />
           <Route element={<CourseFullView />} path={"/course-full-view"} />
           <Route element={<Atomic />} path={"/atomic"} />
+          <Route element={<Landing />} path={"/landing"} />
         </Routes>
       </BrowserRouter>
     </>
