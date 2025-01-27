@@ -314,7 +314,7 @@ function Landing() {
         </div>
         <div className="custom-bg">
           <div className="container mx-auto px-4">
-            <div className="py-10 md:py-14 lg:py-20 2xl:py-40 flex gap-6 md:gap-12 xl:gap-[100px] items-center lg:items-end justify-center">
+            <div className="py-10 md:py-14 lg:py-20 2xl:py-40 flex gap-6 md:gap-12 xl:gap-[100px] items-center lg:items-end justify-center text-center md:text-left">
               <h2
                 className="text-2xl md:text-4xl lg:text-5xl xl:text-[66px] 2xl:text-[85px] font-bold leading-none capitalize"
                 style={{ fontFamily: "Monda, serif" }}
@@ -372,13 +372,13 @@ function Landing() {
         </div>
         <div className="py-10 md:py-14 lg:py-[75px]">
           <div className="container mx-auto px-4">
-            <ul className="flex flex-col md:gap-6 lg:gap-10 xl:gap-14 2xl:gap-[78px]">
+            <ul className="flex flex-col gap-6 lg:gap-10 xl:gap-14 2xl:gap-[78px]">
               {enterpriseList.map((data, i) => (
-                <li key={i} className="flex items-center justify-between">
-                  <h3 className="md:w-[140px] lg:w-[180px] xl:w-[400px] md:text-2xl lg:text-3xl xl:text-4xl font-bold">
+                <li key={i} className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+                  <h3 className="md:w-[140px] lg:w-[180px] xl:w-[400px] text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">
                     {data.enterpriseTitle}
                   </h3>
-                  <p className="md:px-6 lg:px-12 xl:px-32 flex-1 text-sm lg:text-base">
+                  <p className="my-3 md:my-0 md:px-6 lg:px-12 xl:px-32 flex-1 text-sm lg:text-base">
                     {data.enterpriseDisc}
                   </p>
                   <Link to="">{data.enterpriseIcon}</Link>
@@ -389,7 +389,7 @@ function Landing() {
         </div>
         <div className="custom-bg">
           <div className="container mx-auto px-4">
-            <div className="md:py-14 lg:py-20 2xl:py-24 flex gap-12 xl:gap-[100px] items-center justify-center">
+            <div className="py-10 md:py-14 lg:py-20 2xl:py-24 flex gap-6 md:gap-12 xl:gap-[100px] items-center justify-center text-center md:text-left">
               <h2
                 className="text-2xl md:text-4xl lg:text-5xl xl:text-[66px] 2xl:text-[85px] font-bold leading-none capitalize"
                 style={{ fontFamily: "Monda, serif" }}
@@ -421,14 +421,14 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="bg-[#1B1D1C] py-4 lg:py-[25px] px-10 lg:px-[50px] flex items-center justify-between">
+        <div className="bg-[#1B1D1C] py-4 lg:py-[25px] px-4 md:px-10 lg:px-[50px] flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0">
           <Link to="">
             <img src={Logo} alt="" />
           </Link>
-          <ul className="flex gap-5 lg:gap-10">
+          <ul className="flex gap-3 md:gap-5 lg:gap-10">
             {footerLinks.map((data, i) => (
               <li key={i}>
-                <Link to="" className="text-lg lg:text-xl">
+                <Link to="" className="md:text-lg lg:text-xl">
                   {data.footerLinkName}
                 </Link>
               </li>
